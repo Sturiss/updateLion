@@ -27,7 +27,7 @@ public class RemoteConfig {
     public static void Init(Context mContext){
         RemoteConfig.mContext = mContext;
         if (ToolUtils.isApkInDebug(mContext)){
-            remoteUrl = "https://cdn.staticaly.com/gh/hfr1107/vvbox/main/INI/remote.txt";
+            remoteUrl = "https://raw.fastgit.org/hfr1107/vvbox/main/INI/remote.json";
         }else{
             remoteUrl = "https://cdn.staticaly.com/gh/hfr1107/vvbox/main/INI/remote.json";
         }
