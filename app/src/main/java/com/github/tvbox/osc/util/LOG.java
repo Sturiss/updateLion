@@ -94,7 +94,7 @@ public class LOG {
         else if (logType == Log.WARN)
             Log.w(TAG, msg);
         else if (logType == Log.DEBUG)
-            Log.e(TAG, msg);
+            Log.d(TAG, msg);
         else if (logType == Log.INFO)
             Log.i(TAG, msg);
         else
