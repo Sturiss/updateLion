@@ -27,9 +27,9 @@ public class RemoteConfig {
     public static void Init(Context mContext){
         RemoteConfig.mContext = mContext;
         if (ToolUtils.isApkInDebug(mContext)){
-            remoteUrl = "https://gitcode.net/homebo-x_release/up/-/raw/master/remote.txt";
+            remoteUrl = "https://gitea.com/kuby007/update/raw/branch/main/remote.txt";
         }else{
-            remoteUrl = "https://cdn.staticaly.com/gh/hfr1107/vvbox/main/INI/remote.txt";
+            remoteUrl = "https://gitcode.net/homebo-x_release/up/-/raw/master/remote.txt";
         }
         LOG.e("RemoteConfig",
                 ToolUtils.isApkInDebug(mContext) ? "当前处于【调试】模式":"当前处于【正式】模式",
