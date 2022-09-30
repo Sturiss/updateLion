@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@color/color_FFFFFF"
-        android:paddingBottom="30dp">
+        android:paddingBottom="20dp">
 
         <TextView
             android:id="@+id/title"
@@ -18,7 +18,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:text="发现新版本"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
 
         <View
             android:id="@+id/line"
@@ -32,8 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/line"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="30dp" />
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:id="@+id/msg_tv"
@@ -44,41 +44,37 @@
             android:layout_marginLeft="32dp"
             android:layout_marginRight="32dp"
             android:text="更新日志"
-            android:textSize="25sp" />
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_below="@+id/msg_tv"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="30dp"
             android:orientation="horizontal">
 
-        <TextView
+            <Button
                 android:id="@+id/yes_btn"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:background="@drawable/button_dialog_main"
-                android:focusable=”true”
+                android:background="#4a7acd"
                 android:gravity="center"
                 android:text="立即更新"
-                android:padding="@dimen/vs_10"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="20sp" />
 
-        <TextView
+            <Button
                 android:id="@+id/no_btn"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-            android:background="@drawable/button_dialog_main"
-                android:focusable=”true”
+                android:background="#4a7acd"
                 android:gravity="center"
                 android:text="以后再说"
-                android:padding="@dimen/vs_10"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="20sp" />
         </LinearLayout>
