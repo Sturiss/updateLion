@@ -53,26 +53,28 @@
             android:layout_marginTop="25dp"
             android:orientation="horizontal">
 
-            <Button
+        <TextView
                 android:id="@+id/yes_btn"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:background="#4a7acd"
+            android:background="@drawable/button_dialog_main"
+                android:focusable=”true”
                 android:gravity="center"
                 android:text="立即更新"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="20sp" />
 
-            <Button
+        <TextView
                 android:id="@+id/no_btn"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:background="#4a7acd"
+            android:background="@drawable/button_dialog_main"
+                android:focusable=”true”
                 android:gravity="center"
                 android:text="以后再说"
                 android:textColor="@color/color_FFFFFF"
