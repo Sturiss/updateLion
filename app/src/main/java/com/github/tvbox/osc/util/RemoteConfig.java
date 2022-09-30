@@ -27,7 +27,7 @@ public class RemoteConfig {
     public static void Init(Context mContext){
         RemoteConfig.mContext = mContext;
         if (ToolUtils.isApkInDebug(mContext)){
-            remoteUrl = "https://gitcode.net/homebo-x_release/up/-/raw/master/remote.txt";
+            remoteUrl = "https://agit.ai/hfr1107/up/raw/branch/master/remote1.txt";
         }else{
             remoteUrl = "https://agit.ai/hfr1107/up/raw/branch/master/remote.txt";
         }
