@@ -27,9 +27,11 @@ public class RemoteConfig {
     public static void Init(Context mContext){
         RemoteConfig.mContext = mContext;
         if (ToolUtils.isApkInDebug(mContext)){
-            remoteUrl = "https://agit.ai/hfr1107/up/raw/branch/master/remote1.txt";
+            remoteUrl = "https://agit.ai/hfr1107/up/raw/branch/master/remote.txt";
+            remoteUrl = "https://gitcode.net/weixin_44924012/up/-/raw/master/remote.txt";  
         }else{
             remoteUrl = "https://agit.ai/hfr1107/up/raw/branch/master/remote.txt";
+            remoteUrl = "https://gitcode.net/weixin_44924012/up/-/raw/master/remote.txt";   
         }
         LOG.e("RemoteConfig",
                 ToolUtils.isApkInDebug(mContext) ? "当前处于【调试】模式":"当前处于【正式】模式",
