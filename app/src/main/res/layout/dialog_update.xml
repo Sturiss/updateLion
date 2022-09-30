@@ -67,7 +67,7 @@
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="32sp" />
 
-            <Button
+        <TextView
                 android:id="@+id/no_btn"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
